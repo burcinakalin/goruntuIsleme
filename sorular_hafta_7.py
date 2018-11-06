@@ -25,7 +25,7 @@ def MBR_create_28_by_28_with_0_1(matris_a):
     
     for i in range(m):
         for j in range(n):
-            if(matris_a[i,j]==i and x_min>i):
+            if(matris_a[i,j]==1 and x_min>i):
                 x_min=i
                 
             if(matris_a[i,j]==1 and x_max<i):
